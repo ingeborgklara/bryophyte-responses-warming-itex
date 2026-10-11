@@ -115,14 +115,6 @@ describing every column.
 Every sheet shares the same five identifiers: `SITE`, `HABITAT`, `TREATMENT`
 (`CTL` or `OTC`), `PLOT` and `YEAR`.
 
-The point-intercept sheet covers 2014 onwards only; composition for the earlier
-surveys is held in the species and BFG matrices, which therefore cannot be
-rebuilt from it.
-
-The Betula heath also carries a grazed (`GRA`) treatment from a separate
-experiment. It is excluded from every analysis in the paper and is not included
-here.
-
 ## Statistical approach
 
 Bayesian generalized linear mixed models were fitted with **MCMCglmm** (Hadfield
@@ -152,21 +144,8 @@ selection on AIC with a ΔAIC > 2 retention rule (Burnham & Anderson 2002). Tabl
 report the full models; the retained terms are printed to the console as the
 selection runs.
 
-Biological soil crust (`CRUST`) is one of the columns of `species_matrix` and is
-therefore counted in the richness, Shannon, PERMANOVA and PCA results, as in the
-submitted analysis. It occurs in the three Svalbard habitats only. The functional
-group ordinations use all columns of `bfg_matrix` except `Lichen`; `CRUST` is
-retained there too.
 
-## Licence
+## License
 
 - Code: MIT (`LICENSE`)
 - Data: CC BY 4.0 (`LICENSE-data`)
-
-## Acknowledgements
-
-Fieldwork and laboratory work were supported by Vísindasjóður (Rannís), UNIS, The
-Icelandic Research Fund, Svalbardstiftelsen and the University of Iceland
-Research Fund. Logistical support was provided by Landsvirkjun, Thingvellir
-National Park and UNIS. See the paper for the full list of people who contributed
-to the community analyses.
