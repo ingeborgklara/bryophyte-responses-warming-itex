@@ -1,5 +1,7 @@
 # Bryophyte community responses to long-term warming manipulations across contrasting tundra habitats
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23297734.svg)](https://doi.org/10.5281/zenodo.23297734)
+
 Data and analysis code for:
 
 > Jónsdóttir, I. S., Klarenberg, I. & Russi Colmenares, A. J. Bryophyte community
